@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Files d'Attente</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body> 
+    <nav class="navbar">
+<div class="logo">
+            <img src="logo4.png" width="90px" alt="Logo"> <span class="logo-text">exto</span>
+        </div>
+<div class="menu">
+            <a href="index.html">Accueil</a>
+            <a href="#">Fonctionnalités</a>
+            <a href="#">Comment ça marche</a>
+            <a href="#">Contact</a>
+        </div>
+<button class="btn-commencer" onclick="startApp()">Commencer</button>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-text">
+            <h1>Simplifiez la gestion des files d'attente</h1>
+            <p>Solution moderne pour banques, hôpitaux et administrations. Réduisez le temps d'attente et améliorez l'expérience client.</p>
+            <div class="hero-btns">
+<button class="btn-primary" onclick="generateTicket()">Prendre un ticket</button>
+<button class="btn-secondary" onclick="showDemo()">Voir la démo</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="pic1.jpeg" alt="Interface Illustration">
+        </div>
+    </header>
+
+    <main>
+        <section class="section-title">
+            <h2>Fonctionnalités</h2>
+            <div class="underline"></div>
+        </section>
+
+        <section class="features">
+            <div class="card">
+                <div class="icon">🎫</div>
+                <h3>Prise de ticket rapide</h3>
+                <p>Un système intuitif pour obtenir un numéro en un clic.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📊</div> 
+                <h3>Affichage en temps réel</h3>
+                <p>Suivi visuel des numéros sur écrans et mobiles.</p>
+            </div>
+            <div class="card">
+                <div class="icon">⚙️</div> 
+                <h3>Gestion admin simple</h3>
+                <p>Tableau de bord complet pour gérer vos services.</p>
+            </div>
+            <div class="card">
+                <div class="icon">⏱️</div> 
+                <h3>Réduction du temps d'attente</h3>
+                <p>Optimisez vos processus pour plus de fluidité.</p>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="section-title">
+                <h2>Comment ça marche</h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number blue-bg">1</div>
+                    <h4>Choisir un service</h4>
+                    <p>Sélectionnez le guichet souhaité sur la borne.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number black-bg">2</div>
+                    <h4>Recevoir un numéro</h4>
+                    <p>Récupérez votre ticket papier ou digital.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number blue-bg">3</div>
+                    <h4>Attendre son tour</h4>
+                    <p>Suivez l'avancement via les écrans dédiés.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number black-bg">4</div>
+                    <h4>Être appelé</h4>
+                    <p>Il n'y a plus qu'à se rendre vers votre appel.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-blue">
+            <div class="triangle-icon">▲</div> 
+            <h2>Prêt à améliorer votre service ?</h2>
+            <p>Rejoignez les centaines d'établissements qui font déjà confiance à **Meteo** pour la gestion de leurs files d'attente.</p>
+<button class="btn-white" onclick="startApp()">Commencer maintenant &rarr;</button>
+        </section>
+    </main>
+
+<footer class="footer-container">
+    <div class="footer-col">
+        <h4>Nexto</h4>
+    </div>
+    <div class="footer-col">
+        <h4>Liens utiles</h4>
+        <ul>
+            <li><a href="#">Politique de confidentialité</a></li>
+            <li><a href="#">Conditions d'utilisation</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+            <li><a href="#">Contactez-nous</a></li>
+        </ul>
+    </div>
+    <div class="copyright">
+        2026 Nexto. Tous droits réservés.
+    </div>
+</footer>
+
+<script>
+function generateTicket() {
+  alert("Votre ticket A001 a été généré ! Redirection...");
+  window.location.href = "ticket.html";
+}
+function showDemo() {
+  alert("Démo en cours...");
+  window.location.href = "nexto.html";
+}
+function startApp() {
+  window.location.href = "nexto.html";
+}
+</script>
+
+
