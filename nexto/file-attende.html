@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexto - File d'Attente</title>
+    <link rel="stylesheet" href="core.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            FILE D'ATTENTE
+        </header>
+
+        <main class="content">
+            <div class="table-header">
+                <span>NUMÉRO</span>
+                <span>SERVICE</span>
+                <span>STATUT</span>
+            </div>
+
+            <div class="list-item active">
+                <span class="ticket-id">A23</span>
+                <span class="service-name">Dépôt</span>
+                <span class="status in-progress">EN COURS</span>
+            </div>
+
+            <div class="list-item">
+                <span class="ticket-id">A24</span>
+                <span class="service-name">Retrait</span>
+                <span class="status waiting">EN ATTENTE</span>
+            </div>
+
+            <div class="list-item dimmed">
+                <span class="ticket-id">A22</span>
+                <span class="service-name">Dépôt</span>
+                <span class="status finished">TERMINE</span>
+            </div>
+
+            <div class="list-item">
+                <span class="ticket-id">A25</span>
+                <span class="service-name">Consultation</span>
+                <span class="status waiting">EN ATTENTE</span>
+            </div>
+
+            <div class="list-item">
+                <span class="ticket-id">A26</span>
+                <span class="service-name">Retrait</span>
+                <span class="status waiting">EN ATTENTE</span>
+            </div>
+
+            <div class="info-box">
+                TEMPS D'ATTENTE ESTIMÉ : 12 MINUTES
+            </div>
+            <button class="refresh-btn">ACTUALISER</button>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-top">
+                <span>TEMPS D'ATTENTE ESTIMÉ: 12 MIN</span>
+                <span class="small-refresh">ACTUALISER</span>
+            </div>
+            <nav class="nav-bar">
+                <div class="nav-item active-nav">ACCUEIL</div>
+                <div class="nav-item">TICKETS</div>
+                <div class="nav-item">PROFIL</div>
+            </nav>
+        </footer>
+    </div>
+
+</body>
+</html>

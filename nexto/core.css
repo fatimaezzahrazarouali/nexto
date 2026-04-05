@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    background-color: #2400bb;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+/* Content Area */
+.content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.ticket-id {
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: #008b8b;
+}
+
+.service-name {
+    font-size: 0.9rem;
+}
+
+.status {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+/* Special Row Styles */
+.active {
+    background-color: #fffaf0; /* Light highlight for the active one */
+}
+
+.in-progress {
+    color: #000;
+}
+
+.dimmed {
+    opacity: 0.4;
+}
+
+/* Buttons and Boxes */
+.info-box {
+    background-color: #8e24aa;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.refresh-btn {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+
+/* Footer Section */
+.footer {
+    width: 100%;
+    background-color: #eee;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 0.7rem;
+    color: #555;
+}
+
+.small-refresh {
+    text-decoration: underline;
+}
+
+.nav-bar {
+    display: flex;
+    height: 60px;
+}
+
+.nav-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5c7cc2; /* Light blue */
+    border-right: 1px solid #4a67a8;
+}
+
+.active-nav {
+    background-color: #6a1b9a; /* Darker Purple */
+}

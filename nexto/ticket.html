@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prendre un ticket - Nexto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><img src="logo4.png" alt="Nexto"></div>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="attende.html">Services</a>
+      <a href="ticket.html">Ticket</a>
+    </nav>
+  </header>
+
+  <section class="hero" style="background: #f0f8ff; padding: 60px 20px; text-align: center;">
+    <h1>Prenez votre ticket</h1>
+    <p>Cliquez sur votre service pour générer votre numéro</p>
+    <button onclick="generateTicket('A001', '🪪 Carte d\'identité')" style="margin: 10px; padding: 15px 30px; font-size: 1.2rem; background: #4b4bbd; color: white; border: none; border-radius: 8px;">🪪 Carte ID</button>
+    <button onclick="generateTicket('B002', '🚗 Permis')" style="margin: 10px; padding: 15px 30px; font-size: 1.2rem; background: #28a745; color: white; border: none; border-radius: 8px;">🚗 Permis</button>
+    <button onclick="generateTicket('C003', '🏠 Résidence')" style="margin: 10px; padding: 15px 30px; font-size: 1.2rem; background: #ffc107; color: black; border: none; border-radius: 8px;">🏠 Résidence</button>
+    <button onclick="generateTicket('D004', '💼 Impôts')" style="margin: 10px; padding: 15px 30px; font-size: 1.2rem; background: #dc3545; color: white; border: none; border-radius: 8px;">💼 Impôts</button>
+    <button onclick="generateTicket('E005', '✉️ Aide')" style="margin: 10px; padding: 15px 30px; font-size: 1.2rem; background: #6f42c1; color: white; border: none; border-radius: 8px;">✉️ Aide</button>
+  </section>
+
+  <footer class="footer" style="text-align: center;">
+    <p><a href="attende.html">Retour services</a></p>
+  </footer>
+
+  <script>
+    function generateTicket(code, service) {
+      alert(`🎫 Ticket généré: ${code}\nService: ${service}\nAttendez votre tour!`);
+    }
+  </script>
+</body>
+</html>
